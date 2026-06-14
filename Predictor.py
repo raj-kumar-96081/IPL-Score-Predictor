@@ -34,11 +34,11 @@ label_style = """
 """
 st.markdown(label_style, unsafe_allow_html=True)
 
-pipe_xgb = pickle.load(open('D:\Predictive analysis\Project\project codes\pipe.pkl','rb'))
-pipe_lgbm = pickle.load(open('D:\Predictive analysis\Project\project codes\LGM_pipe.pkl','rb'))
-pipe_cat = pickle.load(open('D:\Predictive analysis\Project\project codes\CAT_pipe.pkl','rb'))
-pipe_rf = pickle.load(open('D:\Predictive analysis\Project\project codes\RF_pipe.pkl','rb'))
-pipe_vot = pickle.load(open('D:\Predictive analysis\Project\project codes\Vote_pipe.pkl','rb'))
+pipe_xgb = pickle.load(open('pipe.pkl','rb'))
+pipe_lgbm = pickle.load(open('LGM_pipe.pkl','rb'))
+pipe_cat = pickle.load(open('CAT_pipe.pkl','rb'))
+pipe_rf = pickle.load(open('RF_pipe.pkl','rb'))
+pipe_vot = pickle.load(open('Vote_pipe.pkl','rb'))
 
 teams = ['Chennai Super Kings', 'Royal Challengers Bangalore',
        'Deccan Chargers', 'Kolkata Knight Riders', 'Sunrisers Hyderabad',
