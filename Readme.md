@@ -49,3 +49,9 @@ The primary model (**XGBoost Regressor**) was optimized using second-order gradi
 ```bash
 git clone [https://github.com/raj-kumar-96081/IPL-Score-Predictor](https://github.com/raj-kumar-96081/IPL-Score-Predictor)
 cd IPL-InningSphere
+
+### 2. Install Dependencies
+Ensure you have Python 3.8+ installed. Install the required packages using:
+
+```bash
+pip install -r requirements.txt
